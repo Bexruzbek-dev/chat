@@ -1,7 +1,7 @@
 import 'package:chat_app_with_mk/services/auth/auth_service.dart';
 import 'package:chat_app_with_mk/services/chat/chat_service.dart';
-import 'package:chat_app_with_mk/widgets/chat_bubble.dart';
-import 'package:chat_app_with_mk/widgets/my_textfield.dart';
+import 'package:chat_app_with_mk/views/widgets/chat_bubble.dart';
+import 'package:chat_app_with_mk/views/widgets/my_textfield.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 

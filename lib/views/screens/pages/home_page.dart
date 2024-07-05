@@ -1,8 +1,8 @@
-import 'package:chat_app_with_mk/pages/chat_page.dart';
+import 'package:chat_app_with_mk/views/screens/pages/chat_page.dart';
 import 'package:chat_app_with_mk/services/auth/auth_service.dart';
 import 'package:chat_app_with_mk/services/chat/chat_service.dart';
-import 'package:chat_app_with_mk/widgets/my_drawer.dart';
-import 'package:chat_app_with_mk/widgets/user_tile.dart';
+import 'package:chat_app_with_mk/views/widgets/my_drawer.dart';
+import 'package:chat_app_with_mk/views/widgets/user_tile.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

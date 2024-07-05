@@ -11,11 +11,21 @@ class UserTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    List users = [
+      "rrr@gmail.com",
+      "ronaldo@gmail.com",
+      "bir@gmail.com",
+      "ikki@gmail.com",
+      "new@gmail.com",
+      "main@gmail.com",
+      "nimadir@gmail.com",
+      "flutter@gmail.com",
+    ];
     return GestureDetector(
       onTap: onTap,
       child: Container(
         decoration: BoxDecoration(
-          color: Theme.of(context).colorScheme.secondary,
+          color: Colors.teal,
           borderRadius: BorderRadius.circular(12),
         ),
         margin: const EdgeInsets.symmetric(vertical: 5, horizontal: 25),
@@ -24,7 +34,7 @@ class UserTile extends StatelessWidget {
           children: [
             const Icon(Icons.person),
             const SizedBox(width: 25),
-            Text(text),
+            Text(users.contains(text) ? "User" : text),
           ],
         ),
       ),
